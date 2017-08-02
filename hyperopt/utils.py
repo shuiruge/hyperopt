@@ -8,7 +8,7 @@ from past.utils import old_div
 import datetime
 import numpy as np
 import logging
-import six.moves.cPickle as pickle
+import dill as pickle
 import os
 import shutil
 import numpy
