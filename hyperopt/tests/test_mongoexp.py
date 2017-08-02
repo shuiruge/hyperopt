@@ -1,6 +1,6 @@
 from __future__ import print_function
 from __future__ import absolute_import
-import six.moves.cPickle as pickle
+import dill as pickle
 import os
 import signal
 import subprocess
