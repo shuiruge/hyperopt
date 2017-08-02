@@ -5,7 +5,7 @@ Entry point for bin/* scripts
 """
 from __future__ import absolute_import
 from future import standard_library
-import six.moves.cPickle as pickle
+import dill as pickle
 import logging
 import os
 from . import utils
