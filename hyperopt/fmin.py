@@ -3,7 +3,7 @@ from __future__ import absolute_import
 from future import standard_library
 from builtins import str
 from builtins import object
-import six.moves.cPickle as pickle
+import dill as pickle
 
 import functools
 import logging
