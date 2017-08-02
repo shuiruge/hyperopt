@@ -93,7 +93,7 @@ from __future__ import print_function
 from __future__ import absolute_import
 from future import standard_library
 import copy
-import six.moves.cPickle as pickle
+import dill as pickle
 # import hashlib
 import logging
 import optparse
